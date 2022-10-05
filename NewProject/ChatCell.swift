@@ -68,7 +68,7 @@ class ChatCell: UITableViewCell{
         let messView = UIImageView()
         messView.translatesAutoresizingMaskIntoConstraints=false
         messView.image=UIImage(systemName: "message")
-        messView.contentMode = .scaleToFill
+        messView.contentMode = .scaleAspectFit
         messView.layer.masksToBounds=true
         return messView
     }()
